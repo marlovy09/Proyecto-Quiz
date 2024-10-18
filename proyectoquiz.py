@@ -1,3 +1,4 @@
+#INICIO
 # Función para mostrar el menú
 def mostrar_menu():
     print("=== Bienvenido al Quiz ===")
@@ -20,7 +21,7 @@ def iniciar_juego():
         {"pregunta": "¿Cuál es la capital de Francia?", "opciones": ["a) Berlín", "b) Madrid", "c) París", "d) Roma"], "respuesta": "c"},
         {"pregunta": "¿Cuántos continentes hay en el mundo?", "opciones": ["a) 5", "b) 6", "c) 7", "d) 8"], "respuesta": "c"},
         {"pregunta": "¿Cuál es el planeta más grande del sistema solar?", "opciones": ["a) Marte", "b) Júpiter", "c) Saturno", "d) Urano"], "respuesta": "b"},
-        {"pregunta": "¿En qué año llegó el hombre a la luna?", "opciones": ["a) 1959", "b) 1969", "c) 1979", "d) 1989"], "respuesta": "b"},
+        {"pregunta": "¿Cuál fue la primer película de Disney?", "opciones": ["a) frozen", "b) blanca nieves", "c) la bella durmiente", "d) moana"], "respuesta": "b"},
         {"pregunta": "¿Cuál es el elemento químico más abundante en la atmósfera?", "opciones": ["a) Oxígeno", "b) Hidrógeno", "c) Nitrógeno", "d) Helio"], "respuesta": "c"},
         {"pregunta": "¿Qué instrumento mide la temperatura?", "opciones": ["a) Barómetro", "b) Termómetro", "c) Higrómetro", "d) Anemómetro"], "respuesta": "b"},
         {"pregunta": "¿Cuál es el idioma más hablado en el mundo?", "opciones": ["a) Español", "b) Inglés", "c) Chino mandarín", "d) Hindi"], "respuesta": "c"},
@@ -49,7 +50,7 @@ def iniciar_juego():
     if porcentaje >= 60:
         print("¡Felicidades, aprobaste el quiz!")
     else:
-        print("Lo siento, no alcanzaste el puntaje mínimo para aprobar. ¡Inténtalo de nuevo!")
+        print("Lo siento, no alcanzaste el puntaje mínimo para aprobar. ¡Inténtalo nuevamente!")
 
 # Función principal para manejar la lógica del menú
 def main():
@@ -65,6 +66,7 @@ def main():
         else:
             print("Opción no válida. Por favor, seleccione una opción correcta.")
 
-# Iniciar el programa
+# Inicializar el programa
 if __name__ == "__main__":
     main()
+    # FIN
